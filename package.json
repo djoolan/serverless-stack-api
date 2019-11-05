@@ -12,6 +12,10 @@
     "type": "git",
     "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
   },
+  "scripts": {
+    "jest": "jest",
+    "test": "serverless-bundle test"
+  },
   "devDependencies": {
     "aws-sdk": "^2.563.0",
     "serverless-bundle": "^1.2.5",
